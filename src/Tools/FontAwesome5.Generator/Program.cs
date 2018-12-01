@@ -16,7 +16,7 @@ namespace FontAwesome5.Generator
         {
             if (args.Length == 0)
             {
-                Generate("..\\..\\");
+                Generate(Path.Combine(Directory.GetCurrentDirectory(), "..\\..\\"));
             }
             else
             {
@@ -45,27 +45,7 @@ namespace FontAwesome5.Generator
             WriteLine("namespace FontAwesome5");
             WriteLine("{");
             PushIndent("\t");
-
-            WriteLine("/// <summary>");
-            WriteLine("/// FontAwesome by Dave Gandy (@davegandy)");
-            WriteLine("///	The iconic SVG, font, and CSS toolkit");
-            WriteLine("///	License https://fontawesome.com/license (C#: MIT License)");
-            WriteLine("/// </summary>");
-            WriteLine("public enum EFontAwesomeStyle");
-            WriteLine("{");
-            PushIndent("\t");
-            WriteSummary("This Style is used as an undefined state.");
-            WriteLine("None,");
-            WriteLine("");
-            foreach (EStyles style in Enum.GetValues(typeof(EStyles)))
-            {
-                WriteSummary("FontAwesome5 {0} Style", style);
-                WriteLine("{0},", style);
-                WriteLine("");
-            }
-            PopIndent();
-            WriteLine("}");
-
+            
             WriteLine("");
             WriteLine("///<summary>FontAwesome5 Icons</summary>");
             WriteLine("public enum EFontAwesomeIcon");
