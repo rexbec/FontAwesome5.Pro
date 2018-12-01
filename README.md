@@ -1,6 +1,6 @@
 # FontAwesome5
 
-[![Build status](https://ci.appveyor.com/api/projects/status/1uiro27lik6v76qk/branch/master?svg=true)](https://ci.appveyor.com/project/MartinTopfstedt/fontawesome5/branch/master)
+> FontAwesome 5 Pro required.
 
 WPF and UWP controls for the iconic SVG, font, and CSS toolkit Font Awesome 5.
 
