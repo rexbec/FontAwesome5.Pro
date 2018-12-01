@@ -21,6 +21,7 @@ namespace FontAwesome5.WPF.Extensions
             {
                 case EFontAwesomeStyle.Regular: return Fonts.RegularTypeface;
                 case EFontAwesomeStyle.Solid: return Fonts.SolidTypeface;
+                case EFontAwesomeStyle.Light: return Fonts.LightTypeface;
                 case EFontAwesomeStyle.Brands: return Fonts.BrandsTypeface;
             }
 
@@ -40,6 +41,7 @@ namespace FontAwesome5.WPF.Extensions
             {
                 case EFontAwesomeStyle.Regular: return Fonts.RegularFontFamily;
                 case EFontAwesomeStyle.Solid: return Fonts.SolidFontFamily;
+                case EFontAwesomeStyle.Light: return Fonts.LightFontFamily;
                 case EFontAwesomeStyle.Brands: return Fonts.BrandsFontFamily;
             }
 

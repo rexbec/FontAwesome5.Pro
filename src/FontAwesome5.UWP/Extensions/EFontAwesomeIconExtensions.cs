@@ -21,6 +21,7 @@ namespace FontAwesome5.UWP.Extensions
             {
                 case EFontAwesomeStyle.Regular: return Fonts.RegularFontFamily;
                 case EFontAwesomeStyle.Solid: return Fonts.SolidFontFamily;
+                case EFontAwesomeStyle.Light: return Fonts.LightFontFamily;
                 case EFontAwesomeStyle.Brands: return Fonts.BrandsFontFamily;
             }
 

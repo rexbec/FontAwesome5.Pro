@@ -14,13 +14,20 @@ namespace FontAwesome5.Generator
 
         static void Main(string[] args)
         {
-            Generate(args[0]);
+            if (args.Length == 0)
+            {
+                Generate("..\\..\\");
+            }
+            else
+            {
+                Generate(args[0]);
+            }
         }
 
         static void Generate(string inputDirectory)
         {
             string outputFile = Path.Combine(inputDirectory, @"src\FontAwesome5\EFontAwesomeIcon.cs");            
-            var configFile = Path.Combine(inputDirectory, @"Font-Awesome\advanced-options\metadata\icons.json");
+            var configFile = Path.Combine(inputDirectory, @"Font-Awesome\metadata\icons.json");
 
             var fa = new FontAwesomeManager(configFile);
 

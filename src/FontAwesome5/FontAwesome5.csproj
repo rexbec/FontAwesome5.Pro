@@ -11,6 +11,14 @@
     <AssemblyOriginatorKeyFile>../FontAwesome5.WPF/Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.4|AnyCPU'">
+    <OutputPath>..\..\dist\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.4|AnyCPU'">
+    <OutputPath>..\..\dist\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
     <PackageReference Include="System.Reflection.TypeExtensions">
       <Version>4.5.0</Version>

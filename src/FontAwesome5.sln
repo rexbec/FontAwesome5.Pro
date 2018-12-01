@@ -20,11 +20,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome5.UWP.Example", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome5", "FontAwesome5\FontAwesome5.csproj", "{C5B304E1-FA5C-4A51-A2F2-816EB2D2A888}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{C2DF6A3D-4A1A-43C4-9474-7591294B72E9}"
-	ProjectSection(SolutionItems) = preProject
-		NuGet\FontAwesome5.nuspec = NuGet\FontAwesome5.nuspec
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5DB18EB6-0943-4E8A-A9D7-C7146AD79C00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome5.Generator", "Tools\FontAwesome5.Generator\FontAwesome5.Generator.csproj", "{36BAF672-62DD-46A9-B6E6-1F3B0AA0D84B}"

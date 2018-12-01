@@ -14,6 +14,7 @@ namespace FontAwesome5.Generator
     {
         Solid,
         Regular,
+        Light,
         Brands
     }
 

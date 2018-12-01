@@ -29,7 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\dist\</OutputPath>
     <DefineConstants>TRACE;NET40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,11 +40,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\dist\</OutputPath>
     <DefineConstants>TRACE;NET40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\FontAwesome5.WPF.xml</DocumentationFile>
+    <DocumentationFile>..\..\dist\FontAwesome5.WPF.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -83,14 +83,17 @@
     <Compile Include="SvgAwesome.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="..\..\font-awesome\use-on-desktop\Font Awesome 5 Brands-Regular-400.otf">
+    <Resource Include="..\..\Font-Awesome\otfs\Font Awesome 5 Brands-Regular-400.otf">
       <Link>Fonts\Font Awesome 5 Brands-Regular-400.otf</Link>
     </Resource>
-    <Resource Include="..\..\font-awesome\use-on-desktop\Font Awesome 5 Free-Regular-400.otf">
-      <Link>Fonts\Font Awesome 5 Free-Regular-400.otf</Link>
+    <Resource Include="..\..\Font-Awesome\otfs\Font Awesome 5 Pro-Light-300.otf">
+      <Link>Fonts\Font Awesome 5 Pro-Light-300.otf</Link>
     </Resource>
-    <Resource Include="..\..\font-awesome\use-on-desktop\Font Awesome 5 Free-Solid-900.otf">
-      <Link>Fonts\Font Awesome 5 Free-Solid-900.otf</Link>
+    <Resource Include="..\..\Font-Awesome\otfs\Font Awesome 5 Pro-Regular-400.otf">
+      <Link>Fonts\Font Awesome 5 Pro-Regular-400.otf</Link>
+    </Resource>
+    <Resource Include="..\..\Font-Awesome\otfs\Font Awesome 5 Pro-Solid-900.otf">
+      <Link>Fonts\Font Awesome 5 Pro-Solid-900.otf</Link>
     </Resource>
     <None Include="Key.snk" />
   </ItemGroup>

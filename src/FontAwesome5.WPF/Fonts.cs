@@ -16,11 +16,15 @@ namespace FontAwesome5.WPF
         /// <summary>
         /// FontAwesome5 Regular FontFamily
         /// </summary>
-        public static readonly FontFamily RegularFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome5.WPF;component/"), "./Fonts/#Font Awesome 5 Free Regular");
+        public static readonly FontFamily RegularFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome5.WPF;component/"), "./Fonts/#Font Awesome 5 Pro Regular");
         /// <summary>
         /// FontAwesome5 Solid FontFamily
         /// </summary>
-        public static readonly FontFamily SolidFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome5.WPF;component/"), "./Fonts/#Font Awesome 5 Free Solid");
+        public static readonly FontFamily SolidFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome5.WPF;component/"), "./Fonts/#Font Awesome 5 Pro Solid");
+        /// <summary>
+        /// FontAwesome5 Light FontFamily
+        /// </summary>
+        public static readonly FontFamily LightFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome5.WPF;component/"), "./Fonts/#Font Awesome 5 Pro Light");
         /// <summary>
         /// FontAwesome5 Brands FontFamily
         /// </summary>
@@ -34,6 +38,10 @@ namespace FontAwesome5.WPF
         /// FontAwesome5 Solid Typeface
         /// </summary>
         public static readonly Typeface SolidTypeface = new Typeface(SolidFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        /// <summary>
+        /// FontAwesome5 Light Typeface
+        /// </summary>
+        public static readonly Typeface LightTypeface = new Typeface(LightFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
         /// <summary>
         /// FontAwesome5 Brands Typeface
         /// </summary>
